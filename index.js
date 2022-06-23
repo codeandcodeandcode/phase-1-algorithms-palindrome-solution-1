@@ -33,11 +33,7 @@ function isPalindrome(word) {
   // reverse the input string
   const reversedWord = reverseString(word);
   // if the reversed string is the same as the input
-  if (word === reversedWord) {
-    return true;
-  } else {
-    return false;
-  }
+  return word === reversedWord;
 }
 
 if (require.main === module) {
